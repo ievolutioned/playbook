@@ -79,7 +79,7 @@ Lastly, we sketch what the rest of the sprint will focus on: the critical path f
 
 > [What job is the user hiring the product to do?](https://www.youtube.com/watch?v=f84LymEs67Y)
 
-![Product Job](assets/Product_Job.png)
+![Product Job](assets/product_job.png)
 
 We will edit the critical path as we move through the phases.
 
