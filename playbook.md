@@ -77,7 +77,7 @@ We then review research from Quora, Analytics, AdWords Keyword Planner, intervie
 
 Lastly, we sketch what the rest of the sprint will focus on: the critical path for the software. At this point, we try to keep this high-level and as light on implementation details as possible. A great question to help generate the critical path is:
 
-> What job is the user hiring the product to do?
+> [What job is the user hiring the product to do?](https://www.youtube.com/watch?v=f84LymEs67Y)
 
 ![Product Job](assets/Product_Job.png)
 
@@ -117,7 +117,7 @@ We then decide whether we're creating one prototype ("best shot") or multiple ("
 
 We then storyboard each prototype. This is a comic book-style story of our customer moving through the critical path.
 
-![Acquisitions Channels](assets/Acquistion_Channels.png)
+![Storyboard](assets/Storyboard.png)
 
 Lastly, we create the testing script in Google Docs and put the scoreboard on the wall of the observation room. The script is based on the storyboard and the scoreboard will be used to record the results of the test. This helps us be very explicit about what we're trying to learn.
 
@@ -131,13 +131,14 @@ While our clients are busy getting communication polished, we are heads-down pro
 
 For web app prototypes, some good options are:
 
-- Squarespace templates
-- Bourbon + Neat + Bitters locally
-- Invision
+- [Squarespace templates](http://www.squarespace.com/)
+- [Bourbon](http://bourbon.io/) + [Neat](http://neat.bourbon.io/) + [Bitters](http://bitters.bourbon.io/) locally
+- [Invision](http://www.invisionapp.com/)
 
 For mobile app prototypes, some good options are:
-- Flinto + Sketch + iOS 7 template
-- Prototyping on Paper
+- [Flinto](https://www.flinto.com/)
+- [framer](http://www.framerjs.com/) + iOS 7 template
+- [Prototyping on Paper](https://popapp.in/)
 
 Don't try to learn these tools during the sprint. Get familiar with them during investment time. During the sprint, use one that you've mastered.
 
@@ -149,21 +150,21 @@ One of our designers interviews each user. We set them up in an interview room w
 
 Good questions are open-ended to allow users to tell stories.
 
-"Could you tell us about a time you donated to a non-profit?"
+>"Could you tell us about a time you donated to a non-profit?"
 
 Don't lead users to an expected answer.
 
-"Would you donate money to a public school if you could?"
+>"Would you donate money to a public school if you could?"
 
 Don't close the conversation.
 
-"Have you donated money to an organization within the last week?"
+>"Have you donated money to an organization within the last week?"
 
 For a new product, it's unlikely that any team will nail it their first sprint.The most likely outcome is that we'll want to run a follow-on sprint starting at Diverge or Converge and test again with a new users.
 
 After one or two sprints, we typically have many assumptions validated, a clear critical path established, and are ready to begin coding a first version to release to a wider audience.
 
-For web apps, we can typically ship a first version in 4-6 weeks. For mobile apps, we can typically ship a beta via HockeyApp in 6-8 weeks and ship to the App Store in 8-10 weeks.
+For web apps, we can typically ship a first version in 4-6 weeks. For mobile apps, we can typically ship a beta via [HockeyApp](http://hockeyapp.net/features/) in 6-8 weeks and ship to the App Store in 8-10 weeks.
 
 Given those timelines, spending an extra 2-5 days doing a second or even third truncated product design sprint is worth the opportunity cost of spending 4x-10x more time and money to learn we bombed.
 
@@ -189,11 +190,11 @@ Tools that make makers happy also make them more productive.
 
 ## Web Apps
 
-In our experience, Ruby on Rails web apps tend to be fast to market and have a low total cost of ownership because they are highly conventional. One Rails app's codebase looks very similar to other Rails app's codebases. There's also strong overlap between agile and Ruby communities, which means, among things, that Ruby developers tend to write tests, use object-oriented design, and avoid repeated code.
+In our experience, [Ruby on Rails](http://rubyonrails.org/) web apps tend to be fast to market and have a low total cost of ownership because they are highly conventional. One Rails app's codebase looks very similar to other Rails app's codebases. There's also strong overlap between agile and Ruby communities, which means, among things, that Ruby developers tend to write tests, use object-oriented design, and avoid repeated code.
 
-Maybe the greatest compliment we can pay to Rails is that we've made a huge financial commitment to it, essentially betting the future of the company on it in 2005. We're still here.
+Maybe the greatest compliment we can pay to Rails is that we've made a huge financial commitment to it, essentially betting the future of the company on it in 2009. We're still here.
 
-In return, we're proud of our contributions to the community, in particular our open source libraries and articles on GIANT ROBOTS SMASHING INTO OTHER GIANT ROBOTS.
+In return, we're proud of our contributions to the community, in particular our [open source libraries](https://github.com/thoughtbot) and articles on [GIANT ROBOTS SMASHING INTO OTHER GIANT ROBOTS](http://robots.thoughtbot.com/).
 
 In addition to Ruby, we use other open source software (OSS) and web standards such as HTML, CSS, JavaScript, UNIX, Vim, and Postgres because they:
 - Are high quality.
@@ -211,9 +212,9 @@ Ruby on Rails comes with features that decrease the burden on the programmer to 
 - Header injection
 - Sensitive data in logs
 
-While Rails makes "doing the right thing" easy with regards to security, we are still required to be diligent, knowledgeable, and test comprehensively. For more information, see the Ruby on Rails Security Guide.
+While Rails makes "doing the right thing" easy with regards to security, we are still required to be diligent, knowledgeable, and test comprehensively. For more information, see the [Ruby on Rails Security Guide](http://guides.rubyonrails.org/security.html).
 
-We support Internet Explorer 9.0+ and the latest versions of Firefox, Chrome, and Safari. We do not support Internet Explorer 6, 7, or 8. Instead, those users see a polite message showing them how to upgrade. Those browsers are losing market share, they have security issues, and they are time-consuming to design for, develop for, and support.
+We support Internet Explorer 9.0+ and the latest versions of Firefox, Chrome, and Safari. We do not support Internet Explorer 6, 7, or 8. Instead, those users see a polite message showing them how to upgrade. Those browsers are [losing market share](http://en.wikipedia.org/wiki/Internet_Explorer#Market_adoption_and_usage_share), they have [security issues](http://en.wikipedia.org/wiki/Internet_Explorer_6#Security_issues), and they are time-consuming to design for, develop for, and support.
 
 In limited special cases, user demographics will dictate that supporting an older version of Internet Explorer is required. Those special cases should be identified early on and additional time and expense will be needed in order to support the version.
 
@@ -232,11 +233,11 @@ We try to start with the most usable platform first. If the device needs the cam
 For other products (especially prototypes), a mobile web app makes sense because:
 
 - All modern smart phones can render HTML.
-- Bourbon and Neat make "responsive" designs easy to implement.
+- [Bourbon](https://github.com/thoughtbot/bourbon) and [Neat](https://github.com/thoughtbot/neat) make "responsive" designs easy to implement.
 - We can create and iterate quickly.
 - We can deploy new versions multiple times a day.
 - We can expose an API so third parties can create Android, iPhone, Blackberry, Windows Phone, and Symbian apps on the business' behalf.
-- HTML5 makes features available that were previously only available "natively" such as GPS (geo-location) and the accelerometer.
+- HTML5 makes features available that were previously only available "natively" such as [GPS (geo-location)](http://diveintohtml5.info/geolocation.html) and the [accelerometer](http://www.mobilexweb.com/blog/safari-ios-accelerometer-websockets-html5).
 
 A downside to the cheapness of building and iterating on mobile web is that the team will have a tendency to add features that will be difficult to kill when transitioning to native mobile.
 
@@ -273,17 +274,17 @@ It can be difficult to switch from one framework to another. The more code that'
 
 ## Databases
 
-For data that absolutely must be saved and stored correctly, we use PostgreSQL (we usually refer to it as "Postgres").
+For data that absolutely must be saved and stored correctly, we use [PostgreSQL](http://www.postgresql.org/) (we usually refer to it as "Postgres").
 
 It's a 30 year old open source database that is highly respected, well supported by documentation and hosting providers, and easily used by any developer who knows the SQL standard.
 
-In recent years, a movement called NoSQL has gained popularity. Best translated as "not only SQL", tremendous effort has been made to create different kinds of databases for different use cases.
+In recent years, a movement called [NoSQL](http://en.wikipedia.org/wiki/NoSQL) has gained popularity. Best translated as "not only SQL", tremendous effort has been made to create different kinds of databases for different use cases.
 
-They are often based off academic or industry research. This is the best collection of NoSQL papers we've seen.
+They are often based off academic or industry research. [This is the best collection of NoSQL papers we've seen](http://nosqlsummer.org/papers).
 
-Our most frequently used NoSQL database is Redis, which we use for storing transient, high read/write data like activity feeds, tags, background jobs, sessions, tokens, and counters. Redis provides tremendous speed from in-memory operations, and also provides point-in-time snapshots of our dataset at specified intervals for persistence.
+Our most frequently used NoSQL database is [Redis](http://redis.io/), which we use for storing transient, high read/write data like activity feeds, tags, background jobs, sessions, tokens, and counters. Redis provides tremendous speed from in-memory operations, and also provides point-in-time snapshots of our dataset at specified intervals for persistence.
 
-Redis is reliable, open-source, and simple. It's easy to predict how it will perform, and it can flexibly model different data sets. We typically use Redis to Go to host our production Redis databases.
+Redis is reliable, open-source, and simple. It's easy to predict how it will perform, and it can flexibly model different data sets. We typically use [Redis to Go](https://redistogo.com/) to host our production Redis databases.
 
 ## Licenses
 
@@ -291,11 +292,11 @@ In contrast with a proprietary license, the source code of the program is made a
 
 Open source licenses can be divided in two categories: permissive and copyleft. Permissive examples include:
 
-- Berkeley Software Distribution (BSD) licenses
-- MIT license
-- Apache license
+- [Berkeley Software Distribution (BSD) licenses](http://en.wikipedia.org/wiki/BSD_licenses)
+- [MIT license](http://en.wikipedia.org/wiki/MIT_License)
+- [Apache license](http://en.wikipedia.org/wiki/Apache_License)
 
-A copyleft example is the General Public License (GPL).
+A copyleft example is the [General Public License (GPL)](GNU_General_Public_License).
 
 They all have the purpose of establishing the copyright holder for the software, granting users the right to copy, modify and redistribute it, protecting the copyright holder from any potential guarantees that the software may provide (software is provided as-is), and optionally imposing some restrictions.
 
@@ -320,11 +321,11 @@ Most of the software we use has a permissive license:
 
 # Laptop Setup
 
-Your laptop is your sword. Don't go into battle without it. Set up your laptop with this script and these dotfiles.
+Your laptop is your sword. Don't go into battle without it. Set up your laptop with [this script](https://github.com/thoughtbot/laptop) and [these dotfiles](thoughtbot).
 
 ## Laptop
 
-Laptop is a script to set up a Mac OS X or Linux laptop for Rails development. It should take less than 15 minutes to install.
+[Laptop](https://github.com/thoughtbot/laptop) is a script to set up a Mac OS X or Linux laptop for Rails development. It should take less than 15 minutes to install.
 
 This sets up compilers, databases, programming languages, package management systems, installers, and other critical programs to our daily programming activities.
 
@@ -334,27 +335,27 @@ This sets up compilers, databases, programming languages, package management sys
 	
 We recommend using dotfiles to customize your tools and environment to suit your preferences, reduce typing, and get work done. Check them into a git repository for safe-keeping and open-source for the benefit of others.
 
-Use our dotfiles to make pair programming with teammates easier and make each other more productive.
+Use our [dotfiles](https://github.com/thoughtbot/dotfiles) to make pair programming with teammates easier and make each other more productive.
 
 ## Text Editor
 
 > Plain text won't become obsolete. It helps leverage your work and simplifies debugging and testing. The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable. -The Pragmatic Programmer
 
-Almost everyone at thoughtbot uses Vim as our text editor.
+Almost everyone at thoughtbot uses [Vim](https://learn.thoughtbot.com/vim) as our text editor.
 
 When we use Vim, we type few characters and avoid the mouse. We're productive and more easily achieve flow.
 
 It's great because:
 
 - Vim is tiny (1.6MB) and starts up instantly.
-- Vim is a well-polished stone by virtue of how long it has been around. It was introduced in 1991 as an improvement on Vi, which itself was written in 1976 by Bill Joy.
+- Vim is a well-polished stone by virtue of how long it has been around. It was introduced in 1991 as an improvement on Vi, which itself was written in 1976 by [Bill Joy](http://en.wikipedia.org/wiki/Bill_Joy).
 - It has a rich ecosystem of open-source plugins.
 
 \newpage 
 
 # Planning
 
-One of our primary process goals is to make frequent, small releases of our working software.
+One of our primary process goals is to make [frequent, small releases](http://www.extremeprogramming.org/rules/releaseoften.html) of our working software.
 
 This section describes how we achieve one week's worth of iteration on a product. It lays out the process we follow and some communication tactics.
 
@@ -380,7 +381,7 @@ A Trello board is a software equivalent of a physical wall with columns of stick
 
 In the following image, "Current" is an example of a board. "In Progress" is an example of a list. "Set up Splunk for logging" is an example of a card.
 
-[Next Up Trello board](assets/Next Up Trello board.png)
+[Next Up Trello board](assets/NextUp.png)
 
 In any task management system, it's important to have a view into the product development process like this. The Next Up list is the single prioritized list to which the product team refers in order to know what to work on next. It represents one week of work.
 
@@ -388,11 +389,11 @@ A card represents a user story, bug fix, engineering task, or general todo.
 
 Cards start out as a simple idea, 1-2 sentences long. As they are pulled through boards, detail is added, explaining why (from a business perspective) we're focusing on it, and maybe notes on suggested implementation (though designers and developers may take or leave it at their discretion; it's supposed to be helpful, not prescriptive).
 
-[Live Trello board](assets/Live_Board.png)
+[Live Trello board](assets/Live.png)
 
 Once the cards in the Next Up list have been prioritized and vetted, they are ready for design and development. A designer or developer "puts their face on it" by assigning it to themselves and pulling it into the In Progress list.
 
-The cards in the In Progress list are actively being designed or developed. Etiquette is that you should never have your face on more than two cards at a time. Work is done in a feature branch.
+The cards in the In Progress list are actively being designed or developed. Etiquette is that you should never have your face on more than two cards at a time. Work is done in a [feature branch](https://github.com/thoughtbot/guides/tree/master/protocol).
 
 When a designer or developer creates a pull request for their feature branch, they move the card to the Code Review list. Any reviewers "put their face on it" while reviewing.
 
@@ -453,7 +454,7 @@ During this meeting, seek discussion with, not instruction from, clients. We can
 
 We've been called "aggressive" with our approach cutting features, budgets, and schedules. We say "no" a lot. It's hard to say "no." "No" is usually not well-received. There's a reason someone requested the feature.
 
-We have to battle sometimes in the face of "yes". We do so armed with knowledge of the history of software success and failure: in 2004, only 34% of software projects were considered successes. The good news is that was 100% better than the stats in 1994. "The primary reason is the projects have gotten a lot smaller."
+We have to battle sometimes in the face of "yes". We do so armed with knowledge of [the history of software success and failure](http://blog.codinghorror.com/the-long-dismal-history-of-software-project-failure/): in 2004, only 34% of software projects were considered successes. The good news is that was 100% better than the stats in 1994. "The primary reason is the projects have gotten a lot smaller."
 
 Few software projects fail because they aren't complicated enough. Saying "no" means keeping the software we're building as simple as possible. Every line of code we write is an asset and a liability.
 
@@ -467,7 +468,7 @@ A single Trello board with a few lists as described above works well for most ea
 - Product Design
 - Engineering
 
-Later on, those lists might be better organized as entire boards themselves. Separated as boards, it's easier to evaluate the relative value of addressing each related thing. Separate boards also keep the "Current" board clean and the product team focused on the week at hand.
+Later on, [those lists might be better organized as entire boards themselves](https://community.uservoice.com/blog/trello-google-docs-product-management/). Separated as boards, it's easier to evaluate the relative value of addressing each related thing. Separate boards also keep the "Current" board clean and the product team focused on the week at hand.
 
 Each of those boards can be organized as the team sees fit for the stage of the product and the team's communication needs.
 
@@ -489,11 +490,11 @@ Many of our projects are frequently undergoing rapid change. Without classic Pho
 
 Just like during the product design sprint, our designers are often sketching interfaces before implementing them. Also like the sprint, anyone on the team is encouraged to sketch at any time.
 
-We have many Moleskine squared, soft, pocket-sized notebooks around the offices. Take one. The pocket size encourages the habit of getting ideas onto paper whenever and wherever they hit us. The pocket size also forces design constraints and mobile-first thinking.
+We have many [Moleskine squared, soft, pocket-sized notebooks](http://www.amazon.com/Moleskine-Squared-Notebook-Cover-Pocket/dp/8883707125) around the offices. Take one. The pocket size encourages the habit of getting ideas onto paper whenever and wherever they hit us. The pocket size also forces design constraints and mobile-first thinking.
 
 ## Wireframes
 
-The designer will then refine the sketches into HTML and CSS wireframes. HTML and CSS wireframes are built using Bourbon and Neat in the browser so the team can get understand the core experience as fast as possible. It also allows developers to start implementing features within the wireframes.
+The designer will then refine the sketches into HTML and CSS wireframes. HTML and CSS wireframes are built using [Bourbon](https://github.com/thoughtbot/bourbon) and [Neat](https://github.com/thoughtbot/neat) in the browser so the team can get understand the core experience as fast as possible. It also allows developers to start implementing features within the wireframes.
 
 It is crucial to keep the design of the application ahead of the development. Focus should be placed on wireframing usability, user experience, and flows.
 
@@ -503,7 +504,7 @@ Those changes are an expected part of the iterative process and feedback loop be
 
 ## User Interface
 
-> An interface is a place where two things meet: the human and the computer. The computer has functions it can perform. The human needs inputs and outputs to take advantage of those functions. The interface is the arrangement of inputs and outputs that enable people to apply the computer's functions to create outcomes they want. - Ryan Singer
+> An interface is a place where two things meet: the human and the computer. The computer has functions it can perform. The human needs inputs and outputs to take advantage of those functions. The interface is the arrangement of inputs and outputs that enable people to apply the computer's functions to create outcomes they want. - [Ryan Singer](http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-%20confuses-matters)
 
 In the context of our software, the user interface is the individual views that provide for goal completion.
 
@@ -524,13 +525,13 @@ We retain consistency. Usable interfaces work as expected across the entire appl
 
 ## Interaction Design
 
-Interaction gives users the ability to change the canvas, to directly manipulate. Designing those interactions is what makes our software come to life. Interactions should provide affordance — animation, for examples, can be used as a powerful metaphor for helping a user understand an interface. Interactions help guide a user from the beginning of a task through it's completion.
+Interaction gives users the ability to change the canvas, to directly manipulate. Designing those interactions is what makes our software come to life. Interactions should provide affordance — [animation, for examples](https://medium.com/p/926eb80d64e3), can be used as a powerful metaphor for helping a user understand an interface. Interactions help guide a user from the beginning of a task through it's completion.
 
-Designers guide these interactions from prototype to implementation. For web applications we start in the browser. For iOS, we use QuartzComposer. For review, we use gifs to demonstrate interactions.
+Designers guide these interactions from prototype to implementation. For web applications we start in the browser. For iOS, we use [QuartzComposer](https://developer.apple.com/technologies/mac/graphics-and-animation.html). For review, we use [gifs](http://gifbrewery.com/) to demonstrate interactions.
 
 ## Visual Design
 
-We refer to an application's visual design exclusively as its style. We use the universal design principles to communicate and bring order to those ideas in our applications.
+We refer to an application's visual design exclusively as its style. We use the u[niversal design principles](https://learn.thoughtbot.com/design-for-developers-resources/principles) to communicate and bring order to those ideas in our applications.
 
 Those fundamentals include, among others:
 
@@ -543,19 +544,27 @@ Successful visual designs typically don't draw attention to themselves. The cont
 
 Successful designs are usable. Consider Google's visual design:
 
+[Gmail](/assets/gmail.png)
+
 ### Gmail
 Everything's on a grid. The "Search Mail" and "Compose Mail" buttons are emphasized over other calls to action with color. The unread messages are emphasized over other messages with a bold font weight.
 
+[Google Search](/assets/googlesearch.png)
+
 ### Google Search
-Everything's on a grid. There is lots of whitespace (especially with AdBlock). Search interface is consistent with Gmail. Search button is emphasized with color.
+Everything's on a grid. There is lots of whitespace (especially with [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)). Search interface is consistent with Gmail. Search button is emphasized with color.
+
+[Google Video](/assets/googlevideo.png)
 
 ### Google Video
 Grids. Whitespace. Consistent search box, search filters, search results.
 
+[Google Places](/assets/googleplaces.png)
+
 ###	Google Places
 Grids. Whitespace. Emphasis on searching and writing a review.
 
-We say "visual design" instead of "graphic design" because typically graphics aren't called for in our applications. Instead, we rely on these principles and excellent typography, using high-quality typefaces from Typekit and typography.com.
+We say "visual design" instead of "graphic design" because typically graphics aren't called for in our applications. Instead, we rely on these principles and excellent [typography], using high-quality typefaces from [Typekit](https://typekit.com/) and [typography.com](http://www.typography.com/).
 
 ## Usability Testing
 
@@ -575,7 +584,7 @@ The most representative candidates are going to be sourced from our existing use
 
 When we have trouble sourcing or aren't interested in existing users, Craigslist can be effective to find candidates. Our office manager puts a posting on Craigslist, schedules them to come into our office, and pays them $30 for their time after the test.
 
-We have a simple template for finding people on Craigslist.
+We have a simple [template for finding people on Craigslist](https://gist.github.com/croaky/1a1ff3902b4321984b0b).
 
 After the tester has arrived, we introduce ourselves and explain the process. There's no need to be strictly formal, we want them to be at ease. To have a relaxed user test, it's important to remind the user of a few things:
 
