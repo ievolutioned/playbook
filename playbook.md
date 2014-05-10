@@ -28,11 +28,11 @@ Some of our work is very technical, but can be public. Look in our public ievolu
 \newpage
 
 # Time
-We work a sustainable pace of 40 hours/week Mondays to Friday.
+We work a [sustainable pace](http://www.extremeprogramming.org/rules/overtime.html) of 40 hours/week Mondays to Friday.
 
 ## Consulting
 
-We make our money on consulting projects. Those projects start with sales and go through a normal flow of designing, developing, shipping, monitoring, and iterating. We should do such a good job for our clients that they will want to poach us, and be such a great place to work that we can be confident our teammates won't leave.
+We make our money on consulting projects. Those projects start with [sales](playbook.md#sales) and go through a normal flow of designing, developing, shipping, monitoring, and iterating. We should do such a good job for our clients that they will want to poach us, and be such a great place to work that we can be confident our teammates won't leave.
 
 \newpage
 
