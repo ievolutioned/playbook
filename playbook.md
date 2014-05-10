@@ -381,7 +381,7 @@ A Trello board is a software equivalent of a physical wall with columns of stick
 
 In the following image, "Current" is an example of a board. "In Progress" is an example of a list. "Set up Splunk for logging" is an example of a card.
 
-[Next Up Trello board](assets/NextUp.png)
+![Next Up Trello board](assets/NextUp.png)
 
 In any task management system, it's important to have a view into the product development process like this. The Next Up list is the single prioritized list to which the product team refers in order to know what to work on next. It represents one week of work.
 
@@ -389,7 +389,7 @@ A card represents a user story, bug fix, engineering task, or general todo.
 
 Cards start out as a simple idea, 1-2 sentences long. As they are pulled through boards, detail is added, explaining why (from a business perspective) we're focusing on it, and maybe notes on suggested implementation (though designers and developers may take or leave it at their discretion; it's supposed to be helpful, not prescriptive).
 
-[Live Trello board](assets/Live.png)
+![Live Trello board](assets/Live.png)
 
 Once the cards in the Next Up list have been prioritized and vetted, they are ready for design and development. A designer or developer "puts their face on it" by assigning it to themselves and pulling it into the In Progress list.
 
@@ -544,22 +544,22 @@ Successful visual designs typically don't draw attention to themselves. The cont
 
 Successful designs are usable. Consider Google's visual design:
 
-[Gmail](/assets/gmail.png)
+![Gmail](/assets/gmail.png)
 
 ### Gmail
 Everything's on a grid. The "Search Mail" and "Compose Mail" buttons are emphasized over other calls to action with color. The unread messages are emphasized over other messages with a bold font weight.
 
-[Google Search](/assets/googlesearch.png)
+![Google Search](/assets/googlesearch.png)
 
 ### Google Search
 Everything's on a grid. There is lots of whitespace (especially with [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)). Search interface is consistent with Gmail. Search button is emphasized with color.
 
-[Google Video](/assets/googlevideo.png)
+![Google Video](/assets/googlevideo.png)
 
 ### Google Video
 Grids. Whitespace. Consistent search box, search filters, search results.
 
-[Google Places](/assets/googleplaces.png)
+![Google Places](/assets/googleplaces.png)
 
 ###	Google Places
 Grids. Whitespace. Emphasis on searching and writing a review.
